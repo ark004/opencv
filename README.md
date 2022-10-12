@@ -1,10 +1,11 @@
 # videocapture-opencv
- # How its work 
- 
- $mkviratualenv venv_name
- 
- $workon env
 
  $import opencv
+
+ # For windows
+ 
+ $mkviratualenv env
+ 
+ $workon env
 
  $python manage.py runserver
